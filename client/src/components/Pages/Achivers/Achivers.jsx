@@ -4,16 +4,16 @@ import Profile from './Profile'
 export default function Achivers() {
   return (
     <div>
-        <h1 style={{textAlign:"center" ,fontFamily:"Qwitcher Grypen" ,fontSize:"95px"}}>Success Story</h1>
+               <h1 style={{textAlign:"center" ,fontFamily:"Qwitcher Grypen" ,fontSize:"95px"}}>Success Story</h1>
         <div className='row my-4'>
             <div className='col-lg-2 my-2'>
-            <img  src="https://media-exp1.licdn.com/dms/image/C4D03AQHhwG0DgVaHmg/profile-displayphoto-shrink_100_100/0/1658811266546?e=1671667200&v=beta&t=aig18dgdkcx_7IBJl1xXawd26WYygYvnTUFwvi6s7Bg" className="card-img-top rounded-circle" alt="..."/>
+            <img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSksMuNz_EkGi9qZ_Kxb6k-HIp88ScNrLAerjdanvo&s" className="card-img-top rounded-circle" alt="..."/>
             </div>
             <div className='col my-4 mx-4'>
                 <h2 >
            Mukul Kumar
                 </h2>
-                <p style={{whiteSpace:"pre-line"}}>
+                <h6 style={{whiteSpace:"pre-line"}} className="mx-2">
                 7 Lakhs per month ?? 
 
 sounds fake, looks fake and we all know the reality as well.
@@ -34,7 +34,7 @@ It’s me in the pic still looking at you scrolling LinkedIn instead of register
 What are you waiting for?
 Link is present in the first comment :)
 #amazon #google #interview #people #help #linkedin #environment.
-                </p>
+                </h6>
             </div>
         </div>
         <div className='row my-4'>
@@ -42,7 +42,7 @@ Link is present in the first comment :)
                 <h2 style={{textAlign:"end"}}>
                 Keerthana C
                 </h2>
-                <p>
+                <h6 className='mx-2'>
                 I had no idea what placements mean till my 5th semester in college.
 
 I started preparing for placements in my 6th semester.
@@ -60,19 +60,17 @@ It's been around 2 years at Amazon now and I haven't regretted my decision of jo
 
 Sometimes, unexpected things do happen!! Not everything can be well planned and not everything goes as per plan(some things are just out of our control), learn to go with the flow.
 
-   </p>
+   </h6>
             </div>
             <div className='col-lg-2 my-1'>
-            <img  src="https://media-exp1.licdn.com/dms/image/C5603AQHKKOMBMtNLnA/profile-displayphoto-shrink_800_800/0/1647314600221?e=1671667200&v=beta&t=uMBlOTqcwA95-Aj59EDrNbcrcZe0ODRIk98ze68r0pU" className="card-img-top rounded-circle" alt="..."/>
+            <img  src="https://png.pngitem.com/pimgs/s/22-223925_female-avatar-female-avatar-no-face-hd-png.png" className="card-img-top rounded-circle" alt="..."/>
             </div>
             
         </div>
 
-
-
         <div className='row my-4'>
             <div className='col-lg-2 my-2'>
-            <img  src="https://media-exp1.licdn.com/dms/image/C5103AQHUTn_wN6JYTw/profile-displayphoto-shrink_200_200/0/1554226314206?e=1671667200&v=beta&t=d331HJVI68g0yrSr835LyR61b4-NOfIg1dbRBuUXpG4" className="card-img-top rounded-circle" alt="..."/>
+            <img  src="https://www.w3schools.com/w3images/avatar2.png" className="card-img-top rounded-circle" alt="..."/>
             </div>
             <div className='col my-4 mx-4'>
                 <h2 >

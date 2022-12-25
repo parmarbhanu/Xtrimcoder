@@ -3,7 +3,7 @@ import React, { useContext, useState } from "react"
 import axios from "axios"
 import { useNavigate } from "react-router-dom"
 import AuthContext from '../../../context/AuthContext'
-import logo from './test-account.png'
+import logo from './profile.png'
 
 const Register = () => {
   const { getLoggedIn } = useContext(AuthContext);
