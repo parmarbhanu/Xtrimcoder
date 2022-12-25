@@ -71,7 +71,7 @@ router.post("/register", async (req, res) => {
         service: 'gmail',
         auth: {
           user: 'info.xtrimcoder@gmail.com',
-          pass: 'hhzhtswqenmnmmcw'
+          pass: 'xftqqyoquxloqkkl'
         }
       });
       var mailOptions = {
@@ -207,7 +207,7 @@ router.post("/getotp", async(req, res) => {
       service: 'gmail',
       auth: {
         user: 'info.xtrimcoder@gmail.com',
-        pass: 'hhzhtswqenmnmmcw'
+        pass: 'xftqqyoquxloqkkl'
       }
     });
     var curotp=generateOTP();
