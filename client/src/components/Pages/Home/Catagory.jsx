@@ -33,7 +33,7 @@ export default function Catagory() {
                     Up-to-Date </span>
                 </div>
 
-                <div className="listar-feature-item-excerpt" style={!isChecked?{color:"white"}:{color:"black"}}>Up-to-date Company Wise Questions</div>
+                <div className="listar-feature-item-excerpt" style={isChecked?{color:"white"}:{color:"black"}}>Up-to-date Company Wise Questions</div>
 
               </div>
             </div>
@@ -67,7 +67,7 @@ export default function Catagory() {
                    One Stop Solution </span>
                 </div>
 
-                <div className="listar-feature-item-excerpt" style={!isChecked?{color:"white"}:{color:"black"}}>
+                <div className="listar-feature-item-excerpt" style={isChecked?{color:"white"}:{color:"black"}}>
                   Provide all essential Features at one Place. </div>
 
               </div>
@@ -102,7 +102,7 @@ export default function Catagory() {
                    Doubt Support</span>
                 </div>
 
-                <div className="listar-feature-item-excerpt" style={!isChecked?{color:"white"}:{color:"black"}}>
+                <div className="listar-feature-item-excerpt" style={isChecked?{color:"white"}:{color:"black"}}>
                   Provide Best Discussion Forum for different Question. </div>
 
               </div>

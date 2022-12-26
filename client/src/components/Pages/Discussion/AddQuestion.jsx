@@ -33,10 +33,8 @@ const submitquestion = () => {
       user.date=new Date();
         axios.post("/dis/create",user)
         .then( res => {
-            // alert(res.data.message)
-            alert("Doubt Added Successfully")
-            // history("/discussion")
-            window.location.reload(false);
+            alert(res.data.message)
+            history("/discussion")
         })
     } else {
         alert("invlid input")

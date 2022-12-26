@@ -13,7 +13,7 @@ export default function Header() {
   const { isChecked } = useContext(DarkmodeContext);
   return (
     <div>
-        <nav className= {!isChecked ? "navbar navbar-expand-lg navbar-dark bg-dark":"navbar navbar-expand-lg navbar-light bg-light"} >
+        <nav className= {isChecked ? "navbar navbar-expand-lg navbar-dark bg-dark":"navbar navbar-expand-lg navbar-light bg-light"} >
   <div className="container-fluid">
     <a className="navbar-brand" href="/" style={{fontFamily:"Qwitcher Grypen", fontSize:"35px"}}>
         <img src={Logo} height={"38px"}/>
@@ -81,7 +81,7 @@ export default function Header() {
       <div className="nav-item" style={{paddingTop:"10px",paddingRight:"30px",paddingLeft:"8px"}}>
         <Darkmode/>
         </div>
-      {!loggedIn ? <a className= {!isChecked ?"btn btn-outline-light":"btn btn-outline-dark"} href='/login' type="submit">Login</a>:<LogOutBtn />}
+      {!loggedIn ? <a className= {isChecked ?"btn btn-outline-light":"btn btn-outline-dark"} href='/login' type="submit">Login</a>:<LogOutBtn />}
       </form>
     </div>
   </div>
