@@ -46,6 +46,7 @@ const Register = () => {
       .then(res => {
         const data = res.data
         setGetotp(data);
+        alert("PLEASE CHECK YOUR EMAIL FOR OTP")
         // console.log(data)
       })
       .catch((error) => {

@@ -15,10 +15,11 @@ function App() {
     color: "white",
     backgroundColor: "#292c35"
   };
+  
   return (
     <AuthContextProvider>
     <BrowserRouter>
-    <div style={isChecked ?mystyle:{backgroundColor: "white"}}>
+    <div style={!isChecked ?mystyle:{backgroundColor: "white"}}>
       <Header/>
       <Body/>
       <Footer/>

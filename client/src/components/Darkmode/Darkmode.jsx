@@ -9,8 +9,8 @@ export default function Darkmode() {
         <div>
     <input type="checkbox" class="checkbox" id="checkbox" checked={isChecked} onChange={handleOnChange}/>
   <label htmlFor="checkbox" class="label">
-  <i class='fas fa-sun'></i>
-    <i class="fas fa-moon"></i>
+  <i class="fas fa-moon"></i>
+    <i class='fas fa-sun'></i>
     <div class='ball'/>
   </label>
   </div>
