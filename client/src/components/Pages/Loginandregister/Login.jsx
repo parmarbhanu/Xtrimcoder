@@ -4,7 +4,7 @@ import axios from "axios"
 import { useNavigate } from "react-router-dom"
 import AuthContext from '../../../context/AuthContext'
 import DarkmodeContext from '../../../context/DarkmodeContext'
-import logo from './test-account.png'
+import logo from './profile.png'
 const Login = () => {
   const { isChecked } = useContext(DarkmodeContext);
     const history = useNavigate()

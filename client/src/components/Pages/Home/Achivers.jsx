@@ -6,7 +6,7 @@ export default function Achivers() {
         <h1 style={{textAlign:"center" ,fontFamily:"Qwitcher Grypen" ,fontSize:"95px"}}>Success Story</h1>
         <div className='row my-4'>
             <div className='col-lg-2 my-2'>
-            <img  src="https://media-exp1.licdn.com/dms/image/C4D03AQHhwG0DgVaHmg/profile-displayphoto-shrink_100_100/0/1658811266546?e=1671667200&v=beta&t=aig18dgdkcx_7IBJl1xXawd26WYygYvnTUFwvi6s7Bg" className="card-img-top rounded-circle" alt="..."/>
+            <img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSksMuNz_EkGi9qZ_Kxb6k-HIp88ScNrLAerjdanvo&s" className="card-img-top rounded-circle" alt="..."/>
             </div>
             <div className='col my-4 mx-4'>
                 <h2 >
@@ -62,7 +62,7 @@ Sometimes, unexpected things do happen!! Not everything can be well planned and 
    </h6>
             </div>
             <div className='col-lg-2 my-1'>
-            <img  src="https://media-exp1.licdn.com/dms/image/C5603AQHKKOMBMtNLnA/profile-displayphoto-shrink_800_800/0/1647314600221?e=1671667200&v=beta&t=uMBlOTqcwA95-Aj59EDrNbcrcZe0ODRIk98ze68r0pU" className="card-img-top rounded-circle" alt="..."/>
+            <img  src="https://png.pngitem.com/pimgs/s/22-223925_female-avatar-female-avatar-no-face-hd-png.png" className="card-img-top rounded-circle" alt="..."/>
             </div>
             
         </div>
